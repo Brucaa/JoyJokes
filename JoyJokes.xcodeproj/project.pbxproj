@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		A9EF934422A93AF200B29BC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF934322A93AF200B29BC6 /* AppDelegate.swift */; };
-		A9EF934622A93AF200B29BC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF934522A93AF200B29BC6 /* ViewController.swift */; };
 		A9EF934922A93AF200B29BC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EF934722A93AF200B29BC6 /* Main.storyboard */; };
 		A9EF934B22A93AF500B29BC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EF934A22A93AF500B29BC6 /* Assets.xcassets */; };
 		A9EF934E22A93AF500B29BC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EF934C22A93AF500B29BC6 /* LaunchScreen.storyboard */; };
+		A9EF935622A93C7200B29BC6 /* JoyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF935522A93C7200B29BC6 /* JoyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9EF934022A93AF200B29BC6 /* JoyJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JoyJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EF934322A93AF200B29BC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9EF934522A93AF200B29BC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9EF934822A93AF200B29BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9EF934A22A93AF500B29BC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9EF934D22A93AF500B29BC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9EF934F22A93AF500B29BC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9EF935522A93C7200B29BC6 /* JoyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A9EF934322A93AF200B29BC6 /* AppDelegate.swift */,
-				A9EF934522A93AF200B29BC6 /* ViewController.swift */,
+				A9EF935522A93C7200B29BC6 /* JoyTableViewController.swift */,
 				A9EF934722A93AF200B29BC6 /* Main.storyboard */,
 				A9EF934A22A93AF500B29BC6 /* Assets.xcassets */,
 				A9EF934C22A93AF500B29BC6 /* LaunchScreen.storyboard */,
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9EF934622A93AF200B29BC6 /* ViewController.swift in Sources */,
 				A9EF934422A93AF200B29BC6 /* AppDelegate.swift in Sources */,
+				A9EF935622A93C7200B29BC6 /* JoyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.milosjovanovic.JoyJokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.milosjovanovic.JoyJokes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
